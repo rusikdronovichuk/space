@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layer_pregame.controllers.GameroomFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary_4"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small_3"
+            android:layout_marginLeft="@dimen/margin_large_3"
+            android:layout_marginRight="@dimen/margin_large_3"
+            android:layout_marginBottom="@dimen/margin_medium_0"
+            android:padding="@dimen/padding_small_3"
+            android:textSize="@dimen/text_size_large_3"
+            android:textColor="@color/gray_0"
+            android:textStyle="bold"
+            android:text="@string/fgr_welcome"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <!-- Logo -->
+            <ImageView
+                android:layout_width="@dimen/image_medium_1"
+                android:layout_height="@dimen/image_medium_1"
+                android:layout_marginTop="@dimen/margin_medium_0"
+                android:layout_marginLeft="@dimen/margin_large_0"
+                android:layout_marginRight="@dimen/margin_large_0"
+                android:layout_marginBottom="@dimen/margin_medium_3"
+                android:layout_gravity="center"
+                android:src="@drawable/logo_planet" />
+
+            <!-- Body -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium_3"
+                android:layout_marginRight="@dimen/margin_large_3"
+                android:padding="@dimen/padding_medium_1"
+                android:background="@color/primary_1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/fgr_button_play"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small_1"
+                    android:background="@color/accent_3"
+                    android:textSize="@dimen/text_size_large_2"
+                    android:textColor="@color/gray_0"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:text="@string/fgr_play_button"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+                <Button
+                    android:id="@+id/fgr_button_statistics"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small_3"
+                    android:background="@color/accent_3"
+                    android:textSize="@dimen/text_size_large_1"
+                    android:textColor="@color/gray_0"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:text="@string/fgr_statistics_button"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+                <Button
+                    android:id="@+id/fgr_button_settings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small_3"
+                    android:background="@color/accent_3"
+                    android:textSize="@dimen/text_size_large_1"
+                    android:textColor="@color/gray_0"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:text="@string/fgr_settings_button"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+                <Button
+                    android:id="@+id/fgr_button_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small_3"
+                    android:background="@color/accent_3"
+                    android:textSize="@dimen/text_size_large_1"
+                    android:textColor="@color/gray_0"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:text="@string/fgr_logout_button"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

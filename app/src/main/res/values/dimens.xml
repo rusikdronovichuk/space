@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margin Begin -->
+
+    <!-- Margin small -->
+    <dimen name="margin_small_0">2dp</dimen>
+    <dimen name="margin_small_1">4dp</dimen>
+    <dimen name="margin_small_2">6dp</dimen>
+    <dimen name="margin_small_3">8dp</dimen>
+
+    <!-- Margin medium -->
+    <dimen name="margin_medium_0">12dp</dimen>
+    <dimen name="margin_medium_1">16dp</dimen>
+    <dimen name="margin_medium_2">20dp</dimen>
+    <dimen name="margin_medium_3">24dp</dimen>
+
+    <!-- Margin large -->
+    <dimen name="margin_large_0">30dp</dimen>
+    <dimen name="margin_large_1">40dp</dimen>
+    <dimen name="margin_large_2">50dp</dimen>
+    <dimen name="margin_large_3">60dp</dimen>
+
+    <!-- Margin End -->
+
+
+
+    <!-- Padding Begin -->
+
+    <!-- Padding small -->
+    <dimen name="padding_small_0">1dp</dimen>
+    <dimen name="padding_small_1">2dp</dimen>
+    <dimen name="padding_small_2">4dp</dimen>
+    <dimen name="padding_small_3">6dp</dimen>
+
+    <!-- Padding medium -->
+    <dimen name="padding_medium_0">8dp</dimen>
+    <dimen name="padding_medium_1">12dp</dimen>
+    <dimen name="padding_medium_2">16dp</dimen>
+    <dimen name="padding_medium_3">20dp</dimen>
+
+    <!-- Padding large -->
+    <dimen name="padding_large_0">24dp</dimen>
+    <dimen name="padding_large_1">28dp</dimen>
+    <dimen name="padding_large_2">32dp</dimen>
+    <dimen name="padding_large_3">40dp</dimen>
+
+    <!-- Padding End -->
+
+
+
+    <!-- Text size Begin -->
+    <!--  Text size small -->
+    <dimen name="text_size_small_0">8dp</dimen>
+    <dimen name="text_size_small_1">9dp</dimen>
+    <dimen name="text_size_small_2">10dp</dimen>
+    <dimen name="text_size_small_3">11dp</dimen>
+
+    <!--  Text size medium -->
+    <dimen name="text_size_medium_0">12dp</dimen>
+    <dimen name="text_size_medium_1">14dp</dimen>
+    <dimen name="text_size_medium_2">16dp</dimen>
+    <dimen name="text_size_medium_3">18dp</dimen>
+
+    <!--  Text size large -->
+    <dimen name="text_size_large_0">24dp</dimen>
+    <dimen name="text_size_large_1">28dp</dimen>
+    <dimen name="text_size_large_2">32dp</dimen>
+    <dimen name="text_size_large_3">40dp</dimen>
+    <!-- Text size End -->
+
+
+
+    <!-- Image size Begin -->
+    <!-- Image size small -->
+    <dimen name="image_small_0">40dp</dimen>
+    <dimen name="image_small_1">60dp</dimen>
+
+    <!-- Image size medium -->
+    <dimen name="image_medium_0">240dp</dimen>
+    <dimen name="image_medium_1">280dp</dimen>
+
+    <!-- Image size large -->
+    <dimen name="image_large_0">320dp</dimen>
+    <dimen name="image_large_1">360dp</dimen>
+
+    <!-- Image size End -->
+</resources>

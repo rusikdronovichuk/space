@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">КОCМО7OT</string>
+
+    <!-- GeneralInfo Begin -->
+    <!-- Titles -->
+    <string name="app_title">КОCМО7OT</string>
+
+    <!-- Buttons -->
+    <string name="button_login">Login</string>
+    <string name="button_register">Register</string>
+    <string name="button_back">Back</string>
+
+    <!-- GeneralInfo End -->
+
+
+    <!-- LoginFragment Begin -->
+    <!-- Rest Begin -->
+    <string name="fl_register_info">Want a new player?</string>
+
+    <!-- Rest End -->
+
+
+    <!-- LoginForm Begin -->
+    <string name="fl_form_login_username">Username</string>
+    <string name="fl_form_login_password">Password</string>
+
+    <!-- LoginForm End -->
+    <!-- LoginFragment End -->
+
+
+    <!-- RegisterFragment Begin -->
+    <!-- Rest Begin -->
+    <string name="fr_button_quit_register">Quit registration</string>
+    <!-- Rest End -->
+
+    <!-- RegisterForm Begin -->
+    <string name="fr_form_register_username">New username</string>
+    <string name="fr_form_register_password">New password</string>
+    <string name="fr_form_register_button">Register new player</string>
+
+    <!-- RegisterForm End -->
+    <!-- RegisterFragment End -->
+
+
+    <!-- GameroomFragment Begin -->
+    <!-- Hello Begin -->
+    <string name="fgr_welcome">Welcome to the Starways</string>
+    <!-- Hello End -->
+
+
+    <!-- Playgame Begin -->
+    <string name="fgr_play_button">Play</string>
+    <string name="fgr_statistics_button">Statistics</string>
+    <string name="fgr_settings_button">Settings</string>
+    <string name="fgr_logout_button">Logout</string>
+    <!-- Playgame End -->
+    <!-- GameroomFragment End -->
+
+
+    <!-- GameFragment Begin -->
+    <!-- GameFragment End -->
+
+    <!-- LevelsFragment Begin -->
+    <string name="fgl_back_button">Go back</string>
+    <!-- LevelsFragment End -->
+
+    <!-- StatisticsFragment Begin -->
+    <string name="fst_back_button">Go back</string>
+    <!-- StatisticsFragment End -->
+
+    <!-- SettingsFragment Begin -->
+    <string name="fsg_sound">Sounds effects?</string>
+    <string name="fsg_music">Background music?</string>
+
+    <string name="fsg_radio_yes">Yes</string>
+    <string name="fsg_radio_no">No</string>
+
+    <string name="fsg_back_button">Go back</string>
+    <!-- SettingsFragment End -->
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layer_entrance.controllers.RegisterFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary_4"
+        android:orientation="vertical">
+
+        <!-- Heading -->
+        <TextView
+            android:text="@string/app_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small_3"
+            android:layout_marginLeft="@dimen/margin_large_3"
+            android:layout_marginRight="@dimen/margin_large_3"
+            android:layout_marginBottom="@dimen/margin_medium_0"
+            android:padding="@dimen/padding_small_3"
+            android:textSize="@dimen/text_size_large_3"
+            android:textColor="@color/gray_0"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_large_3"
+            android:layout_marginRight="@dimen/margin_large_3"
+            android:layout_marginBottom="@dimen/margin_medium_1"
+            android:padding="@dimen/padding_small_3"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/fr_button_quit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small_3"
+                android:padding="@dimen/padding_small_2"
+                android:background="@color/accent_4"
+                android:textSize="@dimen/text_size_medium_2"
+                android:textColor="@color/gray_5"
+                android:textStyle="bold"
+                android:text="@string/fr_button_quit_register"/>
+
+        </LinearLayout>
+
+        <!-- Register Form -->
+        <LinearLayout
+            android:id="@+id/fl_form_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_large_3"
+            android:layout_marginRight="@dimen/margin_large_3"
+            android:layout_marginBottom="@dimen/margin_medium_0"
+            android:padding="@dimen/padding_small_3"
+            android:background="@color/primary_0"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/fl_form_login_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_large_3"
+                android:layout_marginRight="@dimen/margin_large_3"
+                android:textSize="@dimen/text_size_medium_2"
+                android:textColorHint="@color/gray_4"
+                android:hint="@string/fr_form_register_username"/>
+
+            <EditText
+                android:id="@+id/fl_form_login_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_large_3"
+                android:layout_marginRight="@dimen/margin_large_3"
+                android:textSize="@dimen/text_size_medium_2"
+                android:textColorHint="@color/gray_4"
+                android:hint="@string/fr_form_register_password"/>
+
+            <Button
+                android:id="@+id/fr_form_button_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small_3"
+                android:layout_marginLeft="@dimen/margin_large_3"
+                android:layout_marginRight="@dimen/margin_large_3"
+                android:layout_marginBottom="@dimen/margin_small_3"
+                android:background="@color/accent_3"
+                android:textSize="@dimen/text_size_medium_2"
+                android:textColor="@color/gray_0"
+                android:textStyle="bold"
+                android:text="@string/fr_form_register_button"/>
+
+            <TextView
+                android:id="@+id/fr_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium_2" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

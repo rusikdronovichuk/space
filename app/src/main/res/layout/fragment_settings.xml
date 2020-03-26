@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layer_pregame.controllers.SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary_4"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium_0"
+            android:layout_marginLeft="@dimen/margin_large_3"
+            android:layout_marginRight="@dimen/margin_large_3"
+            android:padding="@dimen/padding_small_3"
+            android:textSize="@dimen/text_size_large_2"
+            android:textColor="@color/gray_0"
+            android:textStyle="bold"
+            android:text="@string/fgr_welcome"
+            android:gravity="center"/>
+
+        <!-- Body -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium_3"
+            android:layout_marginLeft="@dimen/margin_large_3"
+            android:layout_marginRight="@dimen/margin_large_3"
+            android:padding="@dimen/padding_medium_1"
+            android:background="@color/primary_1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small_2"
+                android:layout_marginLeft="@dimen/margin_small_3"
+                android:layout_marginRight="@dimen/margin_small_3"
+                android:layout_marginBottom="@dimen/margin_small_2"
+                android:background="@color/primary_0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_large_1"
+                    android:textColor="@color/gray_4"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:text="@string/fsg_sound"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <RadioButton
+                        android:id="@+id/fsg_radio_sounds_yes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/margin_medium_2"
+                        android:textSize="@dimen/text_size_large_0"
+                        android:textColor="@color/gray_4"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:text="@string/fsg_radio_yes"/>
+
+                    <RadioButton
+                        android:id="@+id/fsg_radio_sounds_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_medium_2"
+                        android:textSize="@dimen/text_size_large_0"
+                        android:textColor="@color/gray_4"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:text="@string/fsg_radio_no"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small_2"
+                android:layout_marginLeft="@dimen/margin_small_3"
+                android:layout_marginRight="@dimen/margin_small_3"
+                android:layout_marginBottom="@dimen/margin_small_2"
+                android:background="@color/primary_0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_large_1"
+                    android:textColor="@color/gray_4"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:text="@string/fsg_music"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <RadioButton
+                        android:id="@+id/fsg_radio_music_yes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/margin_medium_2"
+                        android:textSize="@dimen/text_size_large_0"
+                        android:textColor="@color/gray_4"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:text="@string/fsg_radio_yes"/>
+
+                    <RadioButton
+                        android:id="@+id/fsg_radio_music_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_medium_2"
+                        android:textSize="@dimen/text_size_large_0"
+                        android:textColor="@color/gray_4"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:text="@string/fsg_radio_no"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/fsg_button_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium_0"
+                android:layout_marginLeft="@dimen/margin_small_3"
+                android:layout_marginRight="@dimen/margin_small_3"
+                android:layout_marginBottom="@dimen/margin_medium_0"
+                android:padding="@dimen/padding_medium_1"
+                android:background="@color/accent_2"
+                android:textSize="@dimen/text_size_large_0"
+                android:textColor="@color/gray_4"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="@string/fsg_back_button"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

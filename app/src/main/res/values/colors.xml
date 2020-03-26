@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- Primary palette Begin -->
+    <color name="primary_0">#FFFFFF</color>
+    <color name="primary_1">#D0E1F9</color>
+    <color name="primary_2">#4D648D</color>
+    <color name="primary_3">#283665</color>
+    <color name="primary_4">#1E1F26</color>
+    <!-- Primary palette End -->
+
+
+    <!-- Accent palette Begin -->
+    <color name="accent_0">#E7AA8E</color>
+    <color name="accent_1">#964317</color>
+    <color name="accent_2">#82CAE2</color>
+    <color name="accent_3">#197AAA</color>
+    <color name="accent_4">#E2E4E9</color>
+    <color name="accent_5">#8891A8</color>
+    <!-- Accent palette End -->
+
+    <!-- Weapons colors Begin -->
+    <color name="weapon_plasma_ball_0">#3DECA6</color>
+    <!-- Weapons colors End -->
+
+
+
+    <!-- Gray palette Begin -->
+    <!-- Bright -->
+    <color name="gray_0">#FFFFFF</color>
+    <color name="gray_1">#CFD8DC</color>
+    <color name="gray_2">#B0BEC5</color>
+    <color name="gray_3">#78909C</color>
+    <color name="gray_4">#37474F</color>
+    <color name="gray_5">#263238</color>
+
+    <!-- Gray End -->
+
+    <!-- Neutral palette End -->
+</resources>
