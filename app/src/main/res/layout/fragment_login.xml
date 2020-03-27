@@ -1,131 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".layer_entrance.controllers.LoginFragment">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/primary_4"
-        android:orientation="vertical">
+        android:background="@drawable/background_7">
 
         <!-- Heading -->
         <TextView
-            android:text="@string/app_title"
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_small_3"
-            android:layout_marginLeft="@dimen/margin_large_3"
-            android:layout_marginRight="@dimen/margin_large_3"
-            android:layout_marginBottom="@dimen/margin_medium_0"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
             android:padding="@dimen/padding_small_3"
-            android:textSize="@dimen/text_size_large_3"
+            android:text="@string/app_title"
             android:textColor="@color/gray_0"
+            android:textSize="@dimen/text_size_large_3"
             android:textStyle="bold"
-            android:gravity="center"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+
 
             <!-- Logo -->
-            <ImageView
-                android:layout_width="@dimen/image_medium_1"
-                android:layout_height="@dimen/image_medium_1"
-                android:layout_marginTop="@dimen/margin_medium_0"
-                android:layout_marginLeft="@dimen/margin_large_0"
-                android:layout_marginRight="@dimen/margin_large_0"
-                android:layout_marginBottom="@dimen/margin_medium_3"
-                android:layout_gravity="center"
-                android:src="@drawable/logo_planet" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/logo_planet"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+
 
                 <!-- Login Form -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/margin_medium_0"
-                    android:layout_marginLeft="@dimen/margin_large_0"
-                    android:layout_marginRight="@dimen/margin_large_3"
-                    android:padding="@dimen/padding_small_3"
-                    android:background="@color/primary_0"
-                    android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@color/primary_0"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_small_3"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
 
-                    <EditText
-                        android:id="@+id/fl_form_login_username"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="@dimen/text_size_medium_2"
-                        android:textColorHint="@color/gray_4"
-                        android:hint="@string/fl_form_login_username"/>
+            <EditText
+                android:id="@+id/fl_form_login_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/fl_form_login_username"
+                android:textColorHint="@color/gray_4"
+                android:textSize="@dimen/text_size_medium_2" />
 
-                    <EditText
-                        android:id="@+id/fl_form_login_password"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="@dimen/text_size_medium_2"
-                        android:textColorHint="@color/gray_4"
-                        android:hint="@string/fl_form_login_password"/>
+            <EditText
+                android:id="@+id/fl_form_login_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/fl_form_login_password"
+                android:textColorHint="@color/gray_4"
+                android:textSize="@dimen/text_size_medium_2" />
 
-                    <Button
-                        android:id="@+id/fl_form_button_login"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="@dimen/margin_small_3"
-                        android:background="@color/accent_3"
-                        android:textSize="@dimen/text_size_medium_2"
-                        android:textColor="@color/gray_0"
-                        android:textStyle="bold"
-                        android:text="@string/button_login"/>
+            <Button
+                android:id="@+id/fl_form_button_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_small_3"
+                android:background="@color/accent_3"
+                android:text="@string/button_login"
+                android:textColor="@color/gray_0"
+                android:textSize="@dimen/text_size_medium_2"
+                android:textStyle="bold" />
 
-                    <TextView
-                        android:id="@+id/fl_message"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="@dimen/text_size_medium_2"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/margin_large_0"
-                    android:layout_marginRight="@dimen/margin_large_3"
-                    android:paddingTop="@dimen/padding_small_3"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="@dimen/text_size_medium_3"
-                        android:textColor="@color/gray_0"
-                        android:textStyle="bold"
-                        android:text="@string/fl_register_info"/>
-
-                    <Button
-                        android:id="@+id/fl_button_register"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/margin_small_3"
-                        android:background="@color/primary_3"
-                        android:textSize="@dimen/text_size_medium_2"
-                        android:textColor="@color/gray_0"
-                        android:textStyle="bold"
-                        android:text="@string/button_register"/>
-
-                </LinearLayout>
-
-            </LinearLayout>
+            <TextView
+                android:id="@+id/fl_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium_2" />
 
         </LinearLayout>
 
-    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/padding_small_3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fl_register_info"
+                android:textColor="@color/gray_0"
+                android:textSize="@dimen/text_size_medium_3"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/fl_button_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small_3"
+                android:background="@color/primary_3"
+                android:text="@string/button_register"
+                android:textColor="@color/gray_0"
+                android:textSize="@dimen/text_size_medium_2"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>

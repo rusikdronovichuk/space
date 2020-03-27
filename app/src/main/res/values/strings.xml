@@ -11,7 +11,8 @@
     <string name="button_back">Back</string>
 
     <!-- GeneralInfo End -->
-
+    <string name="facebook_app_id">163635371426371</string>
+    <string name="fb_login_protocol_scheme">fb163635371426371</string>
 
     <!-- LoginFragment Begin -->
     <!-- Rest Begin -->
@@ -44,7 +45,7 @@
 
     <!-- GameroomFragment Begin -->
     <!-- Hello Begin -->
-    <string name="fgr_welcome">Welcome to the Starways</string>
+    <string name="fgr_welcome">Welcome to the КОCМО7OT</string>
     <!-- Hello End -->
 
 
@@ -76,5 +77,6 @@
     <string name="fsg_radio_no">No</string>
 
     <string name="fsg_back_button">Go back</string>
+    <string name="push">Счастливые часы наступили!</string>
     <!-- SettingsFragment End -->
 </resources>
